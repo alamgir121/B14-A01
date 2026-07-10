@@ -67,3 +67,60 @@ a{
     margin-bottom: 35px;
 }
 
+
+ /* speakers section */
+.speakers{
+    width:80%;
+    margin:100px auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size: 56px;
+    margin-bottom:50px;
+    color: #000102;
+}
+
+.speaker-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.speaker-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.speaker-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.speaker-info{
+    padding:20px;
+}
+
+.category{
+    color:#2563EB;
+    font-size:10px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.speaker-info h3{
+    margin-bottom:8px;
+    font-size: 15px;
+    color: #0D1B2A;
+}
+
+.company{
+    color:#575757;
+    font-size:10px;
+   
+}
+
+
+
