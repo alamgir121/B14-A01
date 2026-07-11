@@ -10,9 +10,10 @@
    align-items: center;
    background-color: #FFFFFF; 
    padding: 10px 80px;
+
 }
 
-ul{
+.menu {
    display: flex;
     list-style: none;
     gap: 10px;
@@ -213,7 +214,7 @@ hr{
     border-color:#2d3748;
 }
 
-ul{
+.pricing-container ul{
     
     display: flex;
     flex-direction: column;
